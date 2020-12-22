@@ -1,5 +1,5 @@
-Run Project:
-./gradlew docker dockerRun
+Run Project: <br/>
+sudo ./gradlew build docker dockerRun
 
-Jenkins:
+Jenkins: <br/>
 localhost:8080
