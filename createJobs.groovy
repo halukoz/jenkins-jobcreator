@@ -6,3 +6,17 @@ pipelineJob('pipelineJob') {
         }
     }
 }
+pipelineJob('spring-demo-job') {
+    definition {
+        cpsScm  {
+            scm {
+                git {
+                    remote {
+                        url 'https://github.com/halukoz/spring-boot-demo.git'
+                    }
+                    branch 'master'
+                }
+            }
+        }
+    }
+}
